@@ -1,6 +1,6 @@
 # Fingrid power visualizer
 
-Visualization of current power production and consumption in the main power grid in Finland. Power production and consumption are furthermore divided into distinct factors as provided by the Fingrid API. Data is based on the real time data (updated once per three minutes) but the database and notebook is updated once per hour.
+Viisualization of current power production and consumption in the main power grid in Finland. Power production and consumption are furthermore divided into distinct factors as provided by the Fingrid API. Data is based on the real time data (updated once per three minutes) but the database and notebook is updated once per hour.
 
 In this mini project a Python script on a virtual machine extracts data from Fingrid API, performs minor transformations and loads it to a database held on the same VM. Power data held on the VM database is then retrieved and visualized by a Python script in a Jupyter notebook. ETL and data visualization processes are updated hourly by a cron job scheduler. 
 
